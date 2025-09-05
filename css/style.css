@@ -94,6 +94,14 @@ body {
     font-size:20px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
+.btnn{
+
+    background-color: transparent;
+    font-size:15px;
+    border: none;
+}
+
+
 
 /* .wave {
   display: block;
@@ -1674,6 +1682,7 @@ form label {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
+  color: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
   background: #444;
@@ -1705,7 +1714,8 @@ form label {
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
-  background: #fff;
+  background: none;
+  display: none;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
   background: #fff;
